@@ -1,20 +1,22 @@
 <div align="center">
-# 🚀 Pdf Word Converter
-### *Modern, High-Performance JavaScript Solution & Developer Suite*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge)](https://github.com/hsinidev)
-  [![Framework](https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Pdf%20Word%20Converter&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Pdf Word Converter Header Banner" />
 
-![FileConverter Screenshot](./screenshot.png)
+  <h1>🚀 Pdf Word Converter</h1>
+  <p><em>Modern, High-Performance JavaScript Solution & Developer Suite</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="Language: TypeScript" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge" alt="Framework: JavaScript" /></a>
+    <a href="https://github.com/hsinidev/PDF-Word-Converter"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Pdf Word Converter** is a production-grade **TypeScript** platform engineered for high reliability, clean architectural separation, and frictionless developer workflow.
@@ -27,6 +29,7 @@
 - **Production Ready**: Built-in error resilience, validation, and structured logging.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `TypeScript`
@@ -34,101 +37,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# FileConverter - PDF & Word Converter
-
-
-A modern, fast, and secure single-page web application for converting documents between PDF and Word formats. It features a clean, responsive, drag-and-drop interface built with React and Tailwind CSS, designed for a seamless user experience. The application is optimized for SEO and includes multiple pages for content like About, Contact, and Privacy.
-
-<!-- Placeholder for a screenshot -->
-<!-- ![FileConverter Screenshot](./screenshot.png) -->
-
-## Features
-
--   **Dual Conversion Modes:** Convert from PDF to Word and Word to PDF.
--   **Drag & Drop Interface:** Easily upload files by dragging them into the browser.
--   **File Validation:** Client-side validation for correct file types (`.pdf`, `.doc`, `.docx`).
--   **Responsive Design:** Fully responsive layout that works on all devices, from mobile to desktop.
--   **Real-time UI Feedback:** Clear loading, success, and error states to guide the user through the conversion process.
--   **Single-Page Application (SPA):** Smooth navigation between the converter, about, contact, and privacy pages without page reloads.
--   **SEO Optimized:** Includes essential meta tags, Open Graph, Twitter Cards, and JSON-LD structured data to improve search engine visibility.
--   **Content-Rich:** Includes dedicated sections for "How It Works," "Why Choose Us," a functional contact form, and a detailed privacy policy.
-
-## Tech Stack
-
--   **Frontend:** [React](https://reactjs.org/)
--   **Language:** [TypeScript](https://www.typescriptlang.org/)
--   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-
-## Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-You will need to have [Node.js](https://nodejs.org/) (v18.x or later) and a package manager like [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) installed.
-
-### Installation
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/your-username/file-converter.git
-    ```
-2.  **Navigate to the project directory:**
-    ```sh
-    cd file-converter
-    ```
-3.  **Install dependencies:**
-    ```sh
-    npm install
-    ```
-
-### Environment Variables
-
-Before running the application, you need to set up your environment variables. The application uses an API to handle the file conversion.
-
-1.  Create a new file named `.env` in the root of your project.
-2.  Add your API key to this file:
-    ```
-    # This is a placeholder for your real file conversion API key
-    API_KEY=YOUR_CONVERSION_API_KEY_HERE
-    ```
-    *Note: The current fetch endpoint (`https://api.example.com/convert`) is a placeholder. You will need to replace it with your actual backend service URL in `App.tsx`.*
-
-### Running the Application
-
-1.  **Start the development server:**
-    ```sh
-    npm start
-    ```
-2.  Open your browser and navigate to `http://localhost:3000` to see the application in action.
-
-## Project Structure
-
-The project follows a standard React application structure:
-
-```
-/
-├── public/              # Static assets
-├── src/
-│   ├── components/      # Reusable React components (icons, spinner, etc.)
-│   ├── App.tsx          # Main application component with all logic and layout
-│   ├── index.tsx        # Entry point of the React application
-│   ├── types.ts         # TypeScript type definitions
-│   └── ...
-├── .env                 # Environment variables (not committed to git)
-├── package.json         # Project dependencies and scripts
-└── README.md            # This file
-```
-
-
-
----
-
-Developed by **Hsini Mohamed**.
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
